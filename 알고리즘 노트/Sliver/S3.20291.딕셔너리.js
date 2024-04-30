@@ -19,6 +19,7 @@ function solution(files) {
   }
 
   const sortExtension = Array.from(extension).sort((a, b) => a[0].localeCompare(b[0]));
+  //^ from을 통해 이터레이터 객체 배열로 변환 후 확장자명 기준으로 사전 정렬
 
   sortExtension.forEach(([ex, v]) => {
     console.log(ex + " " + v);

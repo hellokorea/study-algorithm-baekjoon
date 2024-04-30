@@ -27,12 +27,14 @@ function solution(S) {
       //^ 공백 또한 동일하게 처리하되 " "를 추가하여 공백도 포함 처리
     } else {
       temp.push(S[i]);
+      //^ 태그가 아닌 문자는 모두 배열에 저장 후 "<", " " 만나면 reverse 후 join하기 위함
     }
     i++;
   }
 
   if (temp.length > 0) {
     result += temp.reverse().join("") + " ";
+    //^ ">" 이후 나머지 문자열도 전부 동일하게 처리
   }
 
   return result;
