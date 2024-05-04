@@ -1,5 +1,4 @@
 const fs = require("fs");
-// Make sure to replace "../example.txt" with the correct path to your input file
 const readData = fs.readFileSync("../example.txt").toString().trim().split("\n");
 const N = parseInt(readData[0], 10);
 const input = readData.slice(1);
