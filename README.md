@@ -1,8 +1,7 @@
-# 콜럼버스 스터디 3기
+# 백준 알고리즘
 
-## [기록 및 정리한 노션 📗](https://screeching-sheep-0c6.notion.site/3-ca12675c38d646768b06486e30bccfdb)
+- 백준 알고리즘 문제 정리
 
-- 기초 지식
-- 스택 / 큐 / 연결 리스트
-- 해쉬 / 덱 / 투포인터
-- 그리디
+<br>
+
+## [📗 Profile](https://solved.ac/profile/rlawjdehd155)
